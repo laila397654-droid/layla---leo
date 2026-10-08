@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Lelooo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="stars" aria-hidden="true"></div>
+
+  <main>
+    <section class="gift-screen" id="giftScreen">
+      <div class="glow"></div>
+      <h1>Open Your Gift</h1>
+      <button id="openGift" class="gift-button">press here</button>
+    </section>
+
+    <section class="letter-screen" id="letterScreen">
+      <div class="letter-wrap">
+        <div class="letter-card">
+          <h2>Happy Birthday, Lelooo ♡</h2>
+          <p>Happy birthday, Lelooo! I hope you have the happiest birthday and that this year brings you lots of good moments, happiness, and everything you deserve.</p>
+
+          <p>I honestly don’t know how to put into words how important you’ve become to me. You’ve become such a big part of my everyday life, and somehow my day just feels incomplete if I don’t talk to you.</p>
+
+          <p>You’re genuinely one of the most special people I’ve met. You’re creative, kind, and funny, and having you in my life has brought me so much happiness. I’m really grateful for every little moment we’ve shared.</p>
+
+          <p>I wanted to make you something small that might make you smile, just like you always manage to make me smile with all the little things you do.</p>
+
+          <p>Happy birthday again Sweetie . I really hope you enjoy your day and make some beautiful memories, because today really isn’t just another ordinary day. 🤍</p>
+        </div>
+
+        <button class="scroll-button" id="scrollButton" aria-label="Go to the music">
+          <span>↓</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="music-screen" id="musicScreen">
+      <div class="music-card">
+        <p class="small-title">a little something for you</p>
+        <h2>Can't Help Falling in Love</h2>
+
+        <div class="player">
+          <button id="playButton" class="play-button" aria-label="Play music">▶</button>
+          <div class="track-info">
+            <span class="track-name">Can't Help Falling in Love</span>
+            <div class="progress"><div id="progressBar"></div></div>
+          </div>
+          <span id="time" class="time">0:00</span>
+        </div>
+
+        <audio id="audio" preload="metadata"></audio>
+
+        <p class="galaxy">Take my hand and let's create our own galaxy</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
